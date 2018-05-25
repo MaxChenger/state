@@ -16,4 +16,4 @@ export const initialTag: PetTag = {
     clip: false,
     gems: false,
     complete: false
-};
+}
