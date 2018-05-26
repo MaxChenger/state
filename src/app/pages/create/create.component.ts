@@ -25,6 +25,7 @@ export class CreateComponent implements OnInit, OnDestroy {
       this.petTag = state;
       this.done = !!(this.petTag.shape && this.petTag.text);
     });
+    console.log(this.tagStateSubscription);
   }
 
   ngOnDestroy() {

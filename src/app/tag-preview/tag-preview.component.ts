@@ -13,6 +13,7 @@ export class TagPreviewComponent implements OnChanges  {
   gemsText: string;
   constructor() { }
   ngOnChanges() {
+    console.log(this.petTag);
     this.imgSrc = `/assets/images/${this.petTag.shape}.svg`;
     this.tagClipText = this.boolToText(this.petTag.clip);
     this.gemsText = this.boolToText(this.petTag.gems);

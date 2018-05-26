@@ -17,7 +17,7 @@ export class TagTextComponent implements OnInit {
  selectFont(fontType: string) {
     this.selectFontEvent.emit(fontType);
  }
- addText(text: string) {
-    this.addTextEvent.emit(text);
+ addText(tagTextInput: string) {
+    this.addTextEvent.emit(tagTextInput);
  }
 }
